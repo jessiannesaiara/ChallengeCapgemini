@@ -4,10 +4,6 @@ const { ChallengeCapgemini } = require("./DesafioCapgemini");
 
 const challenge = new ChallengeCapgemini();
 
-it("n = 6", () => {
-  expect(challenge.stairs(6)).toBe();
-});
-
 // TESTE QUESTÃO 2
 
 it("Questão 2: valid password", () => {
