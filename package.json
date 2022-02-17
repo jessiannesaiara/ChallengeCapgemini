@@ -1,0 +1,23 @@
+{
+  "name": "challengecapgeminiii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DesafioCapgemini.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessiannesaiara/ChallengeCapgemini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessiannesaiara/ChallengeCapgemini/issues"
+  },
+  "homepage": "https://github.com/jessiannesaiara/ChallengeCapgemini#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

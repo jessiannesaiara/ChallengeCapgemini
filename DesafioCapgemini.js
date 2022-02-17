@@ -50,10 +50,15 @@ class ChallengeCapgemini {
   // 3
 
   securePassword(password) {
+
+    if(password === undefined) {
+      return `Informe um valor válido`
+    }
+
     let weakPassword = 6 - password.length;
   
     if (password.length < 6) {
-      return `Senha incompleta. Faltam ${weakPassword} caracteres para validar sua senha. `;
+      return weakPassword
     } else if (
       password.match(/[a-z]+/) &&
       password.match(/[A-Z]+/) &&
@@ -85,6 +90,10 @@ class ChallengeCapgemini {
   estão nas posições [[0, 3]], [[8, 9]] e [[0, 1, 2], [1, 2, 3]].*/
 
   anagram(string) {
+
+    if(string === undefined || !isNaN(string)){
+      return `Informe um valor válido`
+    }
 
     let combinations = [];
   
@@ -118,19 +127,4 @@ class ChallengeCapgemini {
   
 }
 
-let challenge = new ChallengeCapgemini()
-
-console.log('**** Challenge 01 ****')
-challenge.stairs(6)
-console.log()
-
-console.log('**** Challenge 02 ****')
-console.log()
-console.log(challenge.securePassword('2*4m'))
-console.log()
-
-console.log('**** Challenge 03 ****')
-console.log()
-console.log(challenge.anagram('ifailuhkqq'))
-console.log()
-console.log('********************')
+module.exports = {ChallengeCapgemini}
