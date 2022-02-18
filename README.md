@@ -2,30 +2,27 @@
 
 <p align="center">The Challenge Program - Capgemini Academy is the third stage of the selection process for Capgemini Academy 2022. For this, it was solved three questions prepared by the academy with different levels of difficulty.</p>
 
-<p align="center">
- <a href="#goal">Goal</a> •
- <a href="#technologies">Technologies</a> • 
- <a href="#author">Author</a>
-</p>
-
 <h4 align="center"> 
 	Completed
 </h4>
 
-### Pré-requisitos
+### Prerequisites:
+
+&nbsp;
 
 Before you start, you will need to have the following tools installed on your machine:
+[Node.js](https://nodejs.org/en/) e npm.
 
-[Git](https://git-scm.com), [Node.js],(https://nodejs.org/en/) e [npm].
-Besides, it's good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
+&nbsp;
 
-### 🎲 Running the code
+
+### 🎲 Running the code:
 
 ```bash
 
 #Clone this repository
 
-$ git clone https://github.com/jessiannesaiara/ChallengeCapgemini.git>
+$ git clone https://github.com/jessiannesaiara/ChallengeCapgemini.git
 
 # Access the project folder in terminal/cmd
 $ cd ChallengeCapgemini
@@ -33,20 +30,27 @@ $ cd ChallengeCapgemini
 # Install the dependency (npm)
 $ npm install
 
+# Running the code
 
+$ node app.js
 
+# Running the test
 
+$ npm test
+```
 
-dependencia para rodar o projeto:
-node e npm 
+### 🛠 Technology
 
-clone do projeto:
+&nbsp;
 
-git clone https://github.com/jessiannesaiara/ChallengeCapgemini.git
+The following technology was used:
 
-apos clonar projeto rodar npm install
+- [Node.js](https://nodejs.org/en/)
 
-para executar o projeto dentro do terminal rodar node app.js
+&nbsp;
 
-para executar os testes rodar npm test
+### Author
 
+&nbsp;
+
+Made by [Jessianne Saiara](https://www.linkedin.com/in/jessianne-mac%C3%AAdo-076504137/).
