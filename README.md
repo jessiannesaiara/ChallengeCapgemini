@@ -8,12 +8,10 @@
 
 ### Prerequisites:
 
-&nbsp;
 
 Before you start, you will need to have the following tools installed on your machine:
 [Node.js](https://nodejs.org/en/) e npm.
 
-&nbsp;
 
 
 ### 🎲 Running the code:
@@ -41,16 +39,14 @@ $ npm test
 
 ### 🛠 Technology
 
-&nbsp;
+
 
 The following technology was used:
 
 - [Node.js](https://nodejs.org/en/)
 
-&nbsp;
 
 ### Author
 
-&nbsp;
 
 Made by [Jessianne Saiara](https://www.linkedin.com/in/jessianne-mac%C3%AAdo-076504137/).
